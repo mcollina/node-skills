@@ -18,6 +18,8 @@ Read individual rule files for detailed explanations and code examples:
 - [rules/streams.md](rules/streams.md) - Working with Node.js streams
 - [rules/modules.md](rules/modules.md) - ES Modules and CommonJS patterns
 - [rules/testing.md](rules/testing.md) - Testing strategies for Node.js applications
+- [rules/flaky-tests.md](rules/flaky-tests.md) - Identifying and diagnosing flaky tests with node:test
+- [rules/node-modules-exploration.md](rules/node-modules-exploration.md) - Navigating and analyzing node_modules directories
 - [rules/performance.md](rules/performance.md) - Performance optimization techniques
 - [rules/caching.md](rules/caching.md) - Caching patterns and libraries
 - [rules/profiling.md](rules/profiling.md) - Profiling and benchmarking tools
