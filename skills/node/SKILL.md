@@ -1,13 +1,25 @@
 ---
 name: node-best-practices
-description: Best practices for Node.js development
+description: Best practices for Node.js development with TypeScript using type stripping
 metadata:
-  tags: node, nodejs, javascript, typescript, backend, server
+  tags: node, nodejs, javascript, typescript, type-stripping, backend, server
 ---
 
 ## When to use
 
 Use this skill whenever you are dealing with Node.js code to obtain domain-specific knowledge for building robust, performant, and maintainable Node.js applications.
+
+## TypeScript with Type Stripping
+
+When writing TypeScript for Node.js, use **type stripping** (Node.js 22.6+) instead of build tools like ts-node or tsx. Type stripping runs TypeScript directly by removing type annotations at runtime without transpilation.
+
+Key requirements for type stripping compatibility:
+- Use `import type` for type-only imports
+- Use const objects instead of enums
+- Avoid namespaces and parameter properties
+- Use `.ts` extensions in imports
+
+See [rules/typescript.md](rules/typescript.md) for complete configuration and examples.
 
 ## How to use
 
